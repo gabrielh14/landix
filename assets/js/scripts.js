@@ -48,28 +48,27 @@ $('#go-step-2').click(function() {
 });
 
 $('#go-step-3').click(function() {
-    
 
     if ($("#pergunta1-a").is(':checked') || $("#pergunta1-b").is(':checked') || $("#pergunta1-c").is(':checked') || $("#pergunta1-d").is(':checked') || $("#pergunta1-e").is(':checked')) {
 
         if ($("#pergunta1-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta1-b").is(':checked')) {
-            resultado = resultado + 2;      
+            resultado = resultado + 0.4;      
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta1-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta1-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta1-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -93,7 +92,7 @@ $('#go-step-3').click(function() {
             { name: 'Telefone', value: telefone.val()},
             { name: 'email', value: email.val()},
             { name: 'Pergunta 1', value: mountpergunta1.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -112,23 +111,23 @@ $('#go-step-4').click(function() {
     if ($("#pergunta2-a").is(':checked') || $("#pergunta2-b").is(':checked') || $("#pergunta2-c").is(':checked') || $("#pergunta2-d").is(':checked') || $("#pergunta2-e").is(':checked')) {
 
         if ($("#pergunta2-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta2-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta2-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta2-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta2-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -158,7 +157,7 @@ $('#go-step-4').click(function() {
             { name: 'email', value: email.val()},
             { name: 'Pergunta 1', value: mountpergunta1.join(", ")},
             { name: 'Pergunta 2', value: mountpergunta2.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -178,23 +177,23 @@ $('#go-step-5').click(function() {
 
 
         if ($("#pergunta3-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta3-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta3-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta3-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta3-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -228,7 +227,7 @@ $('#go-step-5').click(function() {
             { name: 'Pergunta 1', value: mountpergunta1.join(", ")},
             { name: 'Pergunta 2', value: mountpergunta2.join(", ")},
             { name: 'Pergunta 3', value: mountpergunta3.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -247,23 +246,23 @@ $('#go-step-6').click(function() {
     if ($("#pergunta4-a").is(':checked') || $("#pergunta4-b").is(':checked') || $("#pergunta4-c").is(':checked') || $("#pergunta4-d").is(':checked') || $("#pergunta4-e").is(':checked')) {
 
         if ($("#pergunta4-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta4-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta4-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta4-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta4-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         
@@ -303,7 +302,7 @@ $('#go-step-6').click(function() {
             { name: 'Pergunta 2', value: mountpergunta2.join(", ")},
             { name: 'Pergunta 3', value: mountpergunta3.join(", ")},
             { name: 'Pergunta 4', value: mountpergunta4.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -322,23 +321,23 @@ $('#go-step-7').click(function() {
     if ($("#pergunta5-a").is(':checked') || $("#pergunta5-b").is(':checked') || $("#pergunta5-c").is(':checked') || $("#pergunta5-d").is(':checked') || $("#pergunta5-e").is(':checked')) {
 
         if ($("#pergunta5-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta5-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta5-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta5-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta5-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -383,11 +382,12 @@ $('#go-step-7').click(function() {
             { name: 'Pergunta 3', value: mountpergunta3.join(", ")},
             { name: 'Pergunta 4', value: mountpergunta4.join(", ")},
             { name: 'Pergunta 5', value: mountpergunta5.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
         RdIntegration.post(sendRD);
+        console.log(resultado);
 
     } else {
 
@@ -402,23 +402,23 @@ $('#go-step-8').click(function() {
     if ($("#pergunta6-a").is(':checked') || $("#pergunta6-b").is(':checked') || $("#pergunta6-c").is(':checked') || $("#pergunta6-d").is(':checked') || $("#pergunta6-e").is(':checked')) {
         
         if ($("#pergunta6-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta6-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta6-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta6-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta6-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
     
@@ -468,7 +468,7 @@ $('#go-step-8').click(function() {
             { name: 'Pergunta 4', value: mountpergunta4.join(", ")},
             { name: 'Pergunta 5', value: mountpergunta5.join(", ")},
             { name: 'Pergunta 6', value: mountpergunta6.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -487,23 +487,23 @@ $('#go-step-9').click(function() {
     if ($("#pergunta7-a").is(':checked') || $("#pergunta7-b").is(':checked') || $("#pergunta7-c").is(':checked') || $("#pergunta7-d").is(':checked') || $("#pergunta7-e").is(':checked')) {
 
         if ($("#pergunta7-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta7-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta7-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta7-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta7-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -558,7 +558,7 @@ $('#go-step-9').click(function() {
         { name: 'Pergunta 5', value: mountpergunta5.join(", ")},
         { name: 'Pergunta 6', value: mountpergunta6.join(", ")},
         { name: 'Pergunta 7', value: mountpergunta7.join(", ")},
-        { name: 'Trade Business Score', value: resultado},
+        { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
         { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
     ];
 
@@ -577,23 +577,23 @@ $('#go-step-10').click(function() {
     if ($("#pergunta8-a").is(':checked') || $("#pergunta8-b").is(':checked') || $("#pergunta8-c").is(':checked') || $("#pergunta8-d").is(':checked') || $("#pergunta8-e").is(':checked')) {
 
         if ($("#pergunta8-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta8-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta8-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta8-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta8-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -653,7 +653,7 @@ $('#go-step-10').click(function() {
             { name: 'Pergunta 6', value: mountpergunta6.join(", ")},
             { name: 'Pergunta 7', value: mountpergunta7.join(", ")},
             { name: 'Pergunta 8', value: mountpergunta8.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -673,23 +673,23 @@ $('#go-step-11').click(function() {
     if ($("#pergunta9-a").is(':checked') || $("#pergunta9-b").is(':checked') || $("#pergunta9-c").is(':checked') || $("#pergunta9-d").is(':checked') || $("#pergunta9-e").is(':checked')) {
 
         if ($("#pergunta9-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta9-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta9-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta9-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta9-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
 
@@ -754,7 +754,7 @@ $('#go-step-11').click(function() {
             { name: 'Pergunta 7', value: mountpergunta7.join(", ")},
             { name: 'Pergunta 8', value: mountpergunta8.join(", ")},
             { name: 'Pergunta 9', value: mountpergunta9.join(", ")},
-            { name: 'Trade Business Score', value: resultado},
+            { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
             { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
         ];
 
@@ -773,23 +773,23 @@ $('#finish').click(function() {
     if ($("#pergunta10-a").is(':checked') || $("#pergunta10-b").is(':checked') || $("#pergunta10-c").is(':checked') || $("#pergunta10-d").is(':checked') || $("#pergunta10-e").is(':checked')) {
 
         if ($("#pergunta10-a").is(':checked')) {
-            resultado = resultado + 1;
+            resultado = resultado + 0.2;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta10-b").is(':checked')) {
-            resultado = resultado + 2;
+            resultado = resultado + 0.4;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta10-c").is(':checked')) {
-            resultado = resultado + 3;
+            resultado = resultado + 0.6;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta10-d").is(':checked')) {
-            resultado = resultado + 4;
+            resultado = resultado + 0.8;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         if ($("#pergunta10-e").is(':checked')) {
-            resultado = resultado + 5;
+            resultado = resultado + 1;
             $('.resultado').html('Pontuação: ' + resultado + ' pontos.');
         }
         
@@ -870,7 +870,7 @@ $('#finish').click(function() {
         { name: 'Pergunta 8', value: mountpergunta8.join(", ")},
         { name: 'Pergunta 9', value: mountpergunta9.join(", ")},
         { name: 'Pergunta 10', value: mountpergunta10.join(", ")},
-        { name: 'Trade Business Score', value: resultado},
+        { name: 'Trade Business Score', value: (Math.round(resultado * 100)/100).toFixed(2)},
         { name: 'token_rdstation', value: '504fa6a9cd491946efabb2715da3a05b'},
     ];
 

@@ -1,1 +1,37 @@
-html{background:url(../images/bg.jpg) center center no-repeat;background-size:100%;min-height:100vh;overflow-x:hidden}.container{max-width:1370px}.texto{padding-right:270px}body{background-color:transparent}button:focus,input:focus,textarea:focus{outline:0}.logo{padding-top:120px;padding-bottom:99px}h2{font-family:lato,sans-serif;font-size:56px;font-weight:700;font-stretch:normal;font-style:normal;line-height:1.11;letter-spacing:normal;text-align:left;color:#313133}p{font-family:lato,sans-serif;font-size:20px;font-weight:400;font-stretch:normal;font-style:normal;line-height:1.6;letter-spacing:normal;text-align:left;color:#313133;margin-top:40px}h3{font-family:lato,sans-serif;font-size:24px;font-weight:400;font-stretch:normal;font-style:normal;line-height:1.33;letter-spacing:normal;text-align:left;color:#fff;padding-bottom:30px}.title1{text-align:center}h4{font-family:lato,sans-serif;font-size:56px;font-weight:700;font-stretch:normal;font-style:normal;line-height:1.11;letter-spacing:normal;text-align:left;color:#00a1ed}span{font-family:lato,sans-serif;font-size:16px;font-weight:700;color:tomato}.output{margin-bottom:10px}input,select{width:100%;height:60px;border-radius:30px;background-color:#f4f4f4;border:none;font-family:lato,sans-serif;font-size:18px;font-weight:400;font-stretch:normal;font-style:normal;line-height:2.78;letter-spacing:normal;text-align:center;color:#626262;margin-bottom:10px}.box{min-height:100vh}button{width:100%;height:60px;border-radius:30px;background-color:#ff7600;font-family:lato,sans-serif;font-size:20px;font-weight:700;font-stretch:normal;font-style:normal;line-height:2.5;letter-spacing:normal;text-align:center;color:#fff;border:none;margin-top:10px;cursor:pointer}.step{border-radius:20px;box-shadow:15px 15px 40px 0 rgba(49,49,51,.3);background-color:#313133;padding:40px}.step10,.step11,.step2,.step3,.step4,.step5,.step6,.step7,.step8,.step9{display:none}label{font-size:20px;font-family:lato,sans-serif;display:inline-block;cursor:pointer;position:relative;padding-left:40px;margin-right:15px;color:#fff;background:url(../images/radio.svg) 0 5px no-repeat}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;position:absolute;z-index:999999;opacity:0;cursor:pointer}input:active+label,input:checked+label{background:url(../images/radioselect.svg) 0 5px no-repeat;background-size:20px}.radio{padding:10px 0 10px 0}@media (max-width:1600px){.logo{padding-top:60px;padding-bottom:69px}h2{font-size:49px}}@media (max-width:950px){.texto{padding-right:0}h2{font-size:26px}p{font-size:16px;margin-top:40px}html{background:url(../images/bgmobile.jpg) top center no-repeat;background-size:180%;min-height:auto;padding:20px}.step{padding:20px;margin-bottom:40px}h3{font-size:18px}input,select{font-size:15px}label{font-size:16px}h4{font-size:36px}}
+html{background:url(../images/bg.jpg) center center no-repeat;background-size:100%;min-height:100vh;overflow-x:hidden}
+.container{max-width:1370px}
+.texto{padding-right:270px}
+body{background-color:transparent}
+button:focus,input:focus,textarea:focus{outline:0}
+.logo{padding-top:120px;padding-bottom:99px}
+h2{font-family:lato,sans-serif;font-size:56px;font-weight:700;font-stretch:normal;font-style:normal;line-height:1.11;letter-spacing:normal;text-align:left;color:#313133}
+p{font-family:lato,sans-serif;font-size:20px;font-weight:400;font-stretch:normal;font-style:normal;line-height:1.6;letter-spacing:normal;text-align:left;color:#313133;margin-top:40px}
+h3{font-family:lato,sans-serif;font-size:24px;font-weight:400;font-stretch:normal;font-style:normal;line-height:1.33;letter-spacing:normal;text-align:left;color:#fff;padding-bottom:30px}
+.title1{text-align:center}
+h4{font-family:lato,sans-serif;font-size:56px;font-weight:700;font-stretch:normal;font-style:normal;line-height:1.11;letter-spacing:normal;text-align:left;color:#00a1ed}
+span{font-family:lato,sans-serif;font-size:16px;font-weight:700;color:tomato}
+.output{margin-bottom:10px}
+input,select{width:100%;height:60px;border-radius:30px;background-color:#f4f4f4;border:none;font-family:lato,sans-serif;font-size:18px;font-weight:400;font-stretch:normal;font-style:normal;line-height:2.78;letter-spacing:normal;text-align:center;color:#626262;margin-bottom:10px}
+.box{min-height:100vh}
+button{width:100%;height:60px;border-radius:30px;background-color:#ff7600;font-family:lato,sans-serif;font-size:20px;font-weight:700;font-stretch:normal;font-style:normal;line-height:2.5;letter-spacing:normal;text-align:center;color:#fff;border:none;margin-top:10px;cursor:pointer}
+.step{border-radius:20px;box-shadow:15px 15px 40px 0 rgba(49,49,51,.3);background-color:#313133;padding:40px}
+.step10,.step11,.step2,.step3,.step4,.step5,.step6,.step7,.step8,.step9{display:none}
+label{font-size:20px;font-family:lato,sans-serif;display:inline-block;cursor:pointer;position:relative;padding-left:40px;margin-right:15px;color:#fff;background:url(../images/radio.svg) 0 5px no-repeat}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;position:absolute;z-index:999999;opacity:0;cursor:pointer}
+input:active+label,input:checked+label{background:url(../images/radioselect.svg) 0 5px no-repeat;background-size:20px}
+.radio{padding:10px 0 10px 0}
+@media (max-width:1600px){
+.logo{padding-top:60px;padding-bottom:69px}
+h2{font-size:49px}
+}
+@media (max-width:950px){
+.texto{padding-right:0}
+h2{font-size:26px}
+p{font-size:16px;margin-top:40px}
+html{background:url(../images/bgmobile.jpg) top center no-repeat;background-size:180%;min-height:auto;padding:20px}
+.step{padding:20px;margin-bottom:40px}
+h3{font-size:18px}
+input,select{font-size:15px}
+label{font-size:16px}
+h4{font-size:36px}
+}
